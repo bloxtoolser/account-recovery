@@ -1,0 +1,82 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: black;
+  color: white;
+}
+header {
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.banner {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(90deg, #a259ff, #7b18d3);
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+}
+.trust-bullets {
+  text-align: left;
+  list-style: none;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.trust-bullets li::before {
+  content: "✅ ";
+}
+.cta-btn {
+  padding: 15px 30px;
+  background: #a259ff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tool-card {
+  background: #1e1e1e;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #a259ff;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+.use-btn {
+  margin-top: 10px;
+  background: #a259ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+section {
+  padding: 60px 20px;
+  display: none;
+}
+section.active {
+  display: block;
+}
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
